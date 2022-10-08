@@ -17,8 +17,3 @@ var children3 = NestedClass(name: 'Children 3', surname: 'Surname', age: 10, chi
 var children4 = NestedClass(name: 'Children 4', surname: 'Surname', age: 10, children: []);
 var children5 = NestedClass(name: 'Children 5', surname: 'Surname', age: 10, children: []);
 var children6 = NestedClass(name: 'Children 6', surname: 'Surname', age: 10, children: []);
-
-
-
-
-
