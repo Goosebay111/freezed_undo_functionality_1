@@ -16,6 +16,7 @@ List<List<Widget>> loadUndoList() {
   final deleted6 = delete(object: children6, hierarchy: deleted5);
 
   List<NestedClass> undoList = [
+    familyTree,
     deleted1,
     deleted2,
     deleted3,
