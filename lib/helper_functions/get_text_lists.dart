@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:freezed_undo_functionality_1/delete.dart';
 import 'package:freezed_undo_functionality_1/helper_functions/get_names.dart';
-import 'package:freezed_undo_functionality_1/initialise_data.dart';
+import 'package:freezed_undo_functionality_1/intialise_data/initialised_data.dart';
+import 'package:freezed_undo_functionality_1/intialise_data/load_family_tree.dart';
 import 'package:freezed_undo_functionality_1/nested_class.dart';
 
-List<List<Widget>> getTextLists() {
+List<List<Widget>> getUndoList() {
   NestedClass familyTree = loadFamilyTree();
 
   final deleted1 = delete(object: children1, hierarchy: familyTree);
@@ -31,9 +32,6 @@ List<List<Widget>> getTextLists() {
   addNamesToList(undoList, namesList);
   return namesList;
 }
-
-
-
 
 void addNamesToList(List<NestedClass> undoList, List<List<Widget>> namesList) {
   for (var undo in undoList) {

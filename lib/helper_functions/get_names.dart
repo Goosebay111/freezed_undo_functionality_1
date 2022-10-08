@@ -1,6 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:freezed_undo_functionality_1/delete.dart';
-import 'package:freezed_undo_functionality_1/initialise_data.dart';
 import 'package:freezed_undo_functionality_1/nested_class.dart';
 
 List<Widget> getNames(NestedClass updatedHierarchy) {
