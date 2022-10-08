@@ -1,4 +1,4 @@
-import 'package:freezed_undo_functionality_1/intialise_data/initialised_data.dart';
+import 'package:freezed_undo_functionality_1/data_initialization/load_data.dart';
 import 'package:freezed_undo_functionality_1/nested_class.dart';
 
 NestedClass loadFamilyTree() {

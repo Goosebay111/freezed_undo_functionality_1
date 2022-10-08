@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freezed_undo_functionality_1/helper_functions/get_text_lists.dart';
+import 'package:freezed_undo_functionality_1/data_initialization/load_undo_list.dart';
 
 class MyHomeApp extends StatefulWidget {
   const MyHomeApp({super.key});
@@ -9,7 +9,7 @@ class MyHomeApp extends StatefulWidget {
 }
 
 class _MyHomeAppState extends State<MyHomeApp> {
-  List<List<Widget>> namesList = getUndoList();
+  List<List<Widget>> namesList = loadUndoList();
   int page = 0;
   @override
   Widget build(BuildContext context) {
